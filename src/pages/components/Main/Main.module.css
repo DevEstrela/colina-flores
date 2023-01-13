@@ -1,0 +1,7 @@
+.containerMain{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    margin: auto; 
+    margin-top: 5%;
+}
