@@ -1,21 +1,54 @@
 .container{
     width: 100vw;
-
-    background-color: aqua;
 }
-.containerLogo{
+.containerNav{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1%;
+    padding-left: 10%;
+}
+.ContainerLinks{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    height: 4vh;
+    justify-content: flex-end;
+    text-decoration: none;
+    
+    
+}
+.links {
+    margin-left: 1.2vw;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9vmax;
+    color: #0B55C6;
+
+}
+.button{
+    width: 10vw;
+    height: 4vh;
     background-color: #0B55C6;
-    width: 100%;
-    margin: auto;
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1%;
-    
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 3%;
+    font-weight: 500;
+    font-size: 0.9vmax;
 }
-.logo{
-    width: 20%;
+.containerNav > h1{
+    font-size: 2.4vmax;
+    font-family: var(--fontTitle);
+    color: #0B55C6;
 }
+
+
 
 @media ( max-width: 500px) {
     .containerLogo{
@@ -27,8 +60,22 @@
         padding: 5%;
     }
 }
-
-@media ( max-width: 500px) {
+@media ( min-width: 1201px){
+    .logo{
+        width: 20%;
+    }
+}
+@media ( min-width: 769px) and (max-width: 1200px){
+    .logo{
+        width: 35%;
+    }
+}
+@media ( min-width: 500px) and (max-width: 768px) {
+    .logo{
+        width: 50%;
+    }
+}
+@media ( min-width: 100px) and (max-width: 499px){
     .logo{
         width: 70%;
     }
