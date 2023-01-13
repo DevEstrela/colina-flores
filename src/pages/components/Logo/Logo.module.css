@@ -1,0 +1,14 @@
+
+.containerLogo{
+    background-color: #0B55C6;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    
+}
+.logo{
+    width: 20%;
+}
