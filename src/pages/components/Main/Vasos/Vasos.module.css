@@ -1,7 +1,6 @@
 .container{
     width: 50vw;
-    height: 50vh;
-    margin-top: 15%;
+    height: 100vh;
 }
 .containerElements{
     width: 50vw;
@@ -18,7 +17,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     
 }
 .elements > p{
