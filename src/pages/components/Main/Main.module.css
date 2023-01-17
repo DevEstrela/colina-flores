@@ -1,7 +1,8 @@
 .containerMain{
     width: 50vw;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     margin: auto; 
     margin-top: 5%;
+    flex-direction: column;
 }
