@@ -1,0 +1,39 @@
+.container{
+    width: 50vw;
+    height: 50vh;
+}
+.containerElements{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.elements > img{
+    width: 6vw;
+}
+.elements{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.elements > p{
+    text-decoration: line-through;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(158, 6, 6);
+}
+.elements > h5{
+    color: rgb(2, 95, 2);
+}
+.oferta{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
