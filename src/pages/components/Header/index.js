@@ -8,14 +8,14 @@ function Header(){
             <nav className={styles.containerNav}>
                     <h1>Seu Carinho com Flores</h1> 
                 
-                    <Link className={styles.ContainerLinks}>
-                        <a className={styles.links} href='#'>Localização</a>
-                        <a className={styles.links} href='#'>Contatos</a>
-                        <a className={styles.links} href='#'>Coroas</a>
+                    <div className={styles.ContainerLinks}>
+                        <Link to="/" className={styles.links} >Localização</Link>
+                        <Link to="/" className={styles.links} >Contatos</Link>
+                        <Link to="/" className={styles.links} >Coroas</Link>
 
-                        <a href='#zap' className={styles.button}>Entrar em contato</a>
+                        <Link to="/" className={styles.button}>Entrar em contato</Link>
 
-                    </Link>
+                    </div>
                     
             </nav>
 
