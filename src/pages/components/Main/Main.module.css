@@ -1,8 +1,25 @@
 .containerMain{
     width: 50vw;
-    height: 50vh;
+    height: 120vh;
     display: flex;
     margin: auto; 
     margin-top: 5%;
     flex-direction: column;
+}
+
+@media ( min-width: 1201px){
+    
+}
+@media ( min-width: 769px) and (max-width: 1200px){
+    
+}
+@media ( min-width: 500px) and (max-width: 768px) {
+    
+}
+@media ( min-width: 100px) and (max-width: 499px){
+    .containerMain{
+        width: 80vw;
+        height: 130vh;
+        align-items: center;
+    }
 }
