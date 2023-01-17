@@ -1,13 +1,12 @@
 .container{
     width: 50vw;
-    height: 50vh;
+    height: 100vh;
 }
 .containerElements{
     width: 50vw;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-bottom: 50px;
 }
 .elements > img{
     width: 6vw;
@@ -17,7 +16,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     
 }
 .elements > p{
@@ -36,4 +34,60 @@
     font-family: Arial, Helvetica, sans-serif;
 
 
+}
+
+
+@media ( min-width: 1201px){
+    
+}
+@media ( min-width: 769px) and (max-width: 1200px){
+    
+}
+@media ( min-width: 500px) and (max-width: 768px) {
+    
+}
+@media ( min-width: 100px) and (max-width: 499px){
+    .container{
+        width: 80vw;
+        height: 100vh;
+    }
+    .containerElements{
+        width: 80vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .elements > img{
+        width: 16vw;
+    }
+    .elements{
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .elements > p{
+        text-decoration: line-through;
+        text-align: center;
+        font-size: 10px;
+        color: rgb(158, 6, 6);
+    }
+    .elements > h5{
+        color: rgb(2, 95, 2);
+    }
+    .elements > h3{
+        font-size: 1vmax;
+    }
+    .oferta{
+        border-bottom: 2px solid black;
+        padding: 8px;
+        margin-bottom: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .oferta > h1{
+       font-size: 2vmax;
+        
+    }
+    
 }
