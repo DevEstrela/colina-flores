@@ -2,10 +2,20 @@
     background-color: violet;
     height: 350px;
     width: 50vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 .container > nav{
-
+    background-color: rgb(238, 130, 130);
+    width:200px;
+    display: flex;
+    flex-direction: column;
 }
 .container > div{
-    
+    background-color: rgb(137, 130, 238);
+}
+nav > img {
+    width: 1.1vw;
 }
