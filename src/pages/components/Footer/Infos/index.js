@@ -4,7 +4,6 @@ import local from '../../../../img/footer/local.png';
 import wpp from '../../../../img/footer/wpp.png';
 import email from '../../../../img/footer/email.png';
 import send from '../../../../img/footer/send.png'
-import { Link } from 'react-router-dom';
 
 
 function Infos(){
@@ -14,30 +13,31 @@ function Infos(){
 <nav className={styles.containerNav}>
                 <h4>Contatos</h4>
                     <div>
-                        <img src={send} /> <Link to="/" className={styles.links}>Inicio</Link>
+                        <img src={send} /> <a>Inicio</a>
                     </div>
                     
                     <div>
-                        <img src={send} /> <Link to="/" className={styles.links}>Blog</Link>
+                        <img src={send} /> <a   href='https://colinadosipes.com.br/' target="_blank">Blog</a>
                     </div>
                     
                     <div>
-                        <img src={send} /> <Link to="/" className={styles.links}>Trabale Conosco</Link>
+                        <img src={send} /> <a   href='https://grupocolina.solides.jobs/' target="_blank">Trabale Conosco</a>
                     </div>
-                                    
+         
+                    
             </nav>
             <nav className={styles.containerNav}>
                 <h4>Contatos</h4>
                     <div>
-                        <img src={send} /> <Link to="/" className={styles.links}>Funerário</Link>
+                        <img src={send} /> <a   href='https://colinadosipes.com.br/jazigo/' target="_blank">Jazigo</a>
                     </div>
                     
                     <div>
-                        <img src={send} /> <Link to="/" className={styles.links}>Cremação</Link>
+                        <img src={send} /> <a   href='https://colinadosipes.com.br/cremacao/' target="_blank">Cremação</a>
                     </div>
                     
                     <div>
-                        <img src={send} /> <Link to="/" className={styles.links}>Linklanos</Link>
+                        <img src={send} /> <a   href='https://colinadosipes.com.br/plano-funerario/' target="_blank">Planos</a>
                     </div>
                                     
             </nav>
@@ -45,7 +45,7 @@ function Infos(){
             <nav className={styles.containerNav}>
                 <h4>Contatos</h4>
                     <div>
-                        <img src={local} /> <p>(11) 4746-7777</p>
+                        <img src={send} /> <a href='https://criarmeulink.com.br/u/1674159251' target="_blank">(11) 4746-7777</a>
                     </div>
                     
                     <div>
@@ -53,7 +53,7 @@ function Infos(){
                     </div>
                     
                     <div>
-                        <img src={wpp} /> <p>(11) 9 58584-747</p>
+                        <img src={wpp} /> <a href='https://wa.me/5511951534222' target="_blank">(11) 9 5153-4222</a>
                     </div>
                                     
             </nav>
