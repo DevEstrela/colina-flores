@@ -9,9 +9,9 @@ function Redes (){
         <nav className={styles.container}>
             <img src={logo}/>
             <div>
-                <img src={face}/>
-                <img src={insta}/>
-                <img src={linke}/>
+                <a href="" target="_blank"><img src={face}/></a>
+                <a href="" target="_blank"><img src={insta}/></a>
+                <a href="https://www.linkedin.com/company/grupo-colina/mycompany/" target="_blank"><img src={linke}/></a>+
             </div>
             
         </nav>
