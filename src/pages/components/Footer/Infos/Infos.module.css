@@ -1,5 +1,4 @@
 .container{
-    background-color: violet;
     height: 350px;
     width: 50vw ;
     display: flex;
@@ -7,15 +6,30 @@
     align-items: center;
     justify-content: space-around;
 }
-.container > nav{
-    background-color: rgb(238, 130, 130);
+.containerNav{
     width:200px;
     display: flex;
     flex-direction: column;
 }
-.container > div{
-    background-color: rgb(137, 130, 238);
+.containerNav > div{
+    display: flex;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    
+    margin-left: 8px;
+
 }
-nav > img {
-    width: 1.1vw;
+.containerNav > div > img {
+    width: 1vw;
+    margin-right: 8px;
+}
+.containerNav > h4 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+.links{
+    color: #FFFFFF;
+    margin-left: 8px;
+    text-decoration: none;
 }
