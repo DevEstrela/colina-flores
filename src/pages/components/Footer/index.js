@@ -1,9 +1,12 @@
 import styles from '../Footer/Footer.module.css';
+import Redes from './Redes';
+import Infos from './Infos'
 
 function Footer(){
     return(
-        <footer>
-            <h1>HENRIQUUUUUUUUE</h1>
+        <footer className={styles.container}>
+            <Redes/>
+            <Infos/>
         </footer>
     )
 }

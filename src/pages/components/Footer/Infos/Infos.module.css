@@ -1,0 +1,11 @@
+.container{
+    background-color: violet;
+    height: 350px;
+    width: 50vw ;
+}
+.container > nav{
+
+}
+.container > div{
+    
+}
