@@ -11,7 +11,7 @@ function Redes (){
             <div>
                 <a href="" target="_blank"><img src={face}/></a>
                 <a href="" target="_blank"><img src={insta}/></a>
-                <a href="https://www.linkedin.com/company/grupo-colina/mycompany/" target="_blank"><img src={linke}/></a>+
+                <a href="https://www.linkedin.com/company/grupo-colina/mycompany/" target="_blank"><img src={linke}/></a>
             </div>
             
         </nav>
