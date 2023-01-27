@@ -4,26 +4,9 @@
     display: flex;
     margin-top: 50px;
 }
-@media ( min-width: 1201px){
-    
-}
-@media ( min-width: 769px) and (max-width: 1200px){
-    
-}
-@media ( min-width: 500px) and (max-width: 768px) {
+@media (max-width: 767px) {
     .container{
         flex-direction: column;
-        height: 330px;
+        height: 320px;
     }
 }
-@media ( min-width: 100px) and (max-width: 499px){
-    .container{
-        flex-direction: column;
-        height: 280px;
-    }
-}
-
-
-/* 
-    CONTINUAR RESPONSIVIDADE NO FOOTER
-*/
