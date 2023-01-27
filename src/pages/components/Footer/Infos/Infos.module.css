@@ -2,7 +2,6 @@
     height: 320px;
     width: 50vw ;
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-around;
 }
@@ -14,10 +13,8 @@
 .containerNav > div{
     display: flex;
     margin-bottom: 15px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;    
     margin-left: 8px;
-
 }
 .containerNav > div > img {
     width: 1vw;
@@ -34,34 +31,21 @@
     text-decoration: none;
 }
 
-@media ( min-width: 1201px){
-    
-}
-@media ( min-width: 769px) and (max-width: 1200px){
-    
-}
-@media ( min-width: 500px) and (max-width: 768px) {
+@media ( min-width: 768px) and (max-width: 1023px){
     .container{
         display: flex;
-        width: 100vw;
+        width: 50vw;
         padding: 10px;
-    }
-    .containerNav{
-        width: 90vw;
-        height: 120px;
         display: flex;
-        flex-direction: column;
-        margin-left: 11px;
+        justify-content: space-around;
+        align-items: center;
     }
     .containerNav > div{
-        display: flex;
-        margin-bottom: 15px;
-        color: #FFFFFF;
-        margin-left: 8px;
+        margin-left: 0px;
     }
     .containerNav > div > img {
-        width: 2.5vw;
-        height: 2vh;
+        width: 20px;
+        height: 20px;
         margin-right: 8px;
     }
     .containerNav > h4 {
@@ -84,7 +68,7 @@
         display: none;
     }
 }
-@media ( min-width: 100px) and (max-width: 499px){
+@media (max-width: 767px) {
     .container{
         display: flex;
         width: 100vw;
@@ -92,21 +76,25 @@
     }
     .containerNav{
         width: 90vw;
-        height: 110px;
         display: flex;
         flex-direction: column;
-        margin-left: 11px;
+        margin-left: 2px;
+        justify-content: baseline;
+        align-items: flex-start;
     }
     .containerNav > div{
         display: flex;
         margin-bottom: 15px;
         color: #FFFFFF;
         margin-left: 8px;
+        align-items: center;
+        justify-content: flex-start;
     }
     .containerNav > div > img {
-        width: 2.5vw;
-        height: 2vh;
+        width: 20px;
+        height: 20px;
         margin-right: 8px;
+
     }
     .containerNav > h4 {
         font-size: 15px;
