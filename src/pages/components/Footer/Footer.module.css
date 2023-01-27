@@ -2,6 +2,7 @@
     background-color: #0B55C6;
     height: 320px;
     display: flex;
+    margin-top: 50px;
 }
 @media ( min-width: 1201px){
     
