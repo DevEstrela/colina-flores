@@ -59,7 +59,7 @@ function Infos(){
             </nav>
 
             <div>
-                <img src={boton} />
+                <img alt='' className={styles.imgQualidade} src={boton} />
             </div>
         </section>
     )
