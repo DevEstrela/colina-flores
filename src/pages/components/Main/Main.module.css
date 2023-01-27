@@ -5,10 +5,11 @@
 }
 
 
-@media ( min-width: 560) and (max-width: 1024px){
+@media ( min-width: 560px) and (max-width: 1024px){
     .containerMain{
         width: 80vw;
         margin-top: 50px;
+
     }
 }
 @media (min-width: 399px) and (max-width: 559px) {

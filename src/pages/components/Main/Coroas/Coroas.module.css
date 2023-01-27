@@ -41,6 +41,7 @@
     }
     .containerElements{
         width: 80vw;
+        justify-content: space-around;
     }
 }
 
