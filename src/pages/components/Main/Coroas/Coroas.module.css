@@ -14,15 +14,15 @@
     justify-content: center;
     align-items: center;
 }
-.containerElements img{
+.containerElements > div > img{
     width: 140px;
 }
-.containerElements p{
+.containerElements > div >  p{
     text-decoration: line-through;
     font-size: 13px;
     color: rgb(158, 6, 6);
 }
-.containerElements h5{
+.containerElements > div >  h5{
     color: rgb(2, 95, 2);
 }
 .oferta{
@@ -31,7 +31,7 @@
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.oferta h1{
+.oferta > h1{
     color: #0B55C6;
 }
 
