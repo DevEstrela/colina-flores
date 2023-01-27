@@ -16,3 +16,53 @@
     margin-left: 20px;
     margin-top: 25px;
 }
+@media ( min-width: 1201px){
+    
+}
+@media ( min-width: 769px) and (max-width: 1200px){
+    
+}
+@media ( min-width: 500px) and (max-width: 768px) {
+    .container{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .container > img{
+        width: 60vw;
+    }
+    .container > div{
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .container > div > a > img{
+        width: 7vw;
+        margin-left: 10px;
+    }
+}
+@media ( min-width: 100px) and (max-width: 499px){
+    .container{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .container > img{
+        width: 60vw;
+    }
+    .container > div{
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .container > div > a > img{
+        width: 7vw;
+        margin-left: 10px;
+    }
+}
