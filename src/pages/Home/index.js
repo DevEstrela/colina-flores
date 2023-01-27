@@ -9,7 +9,7 @@ function Home(){
             <Logo/>
             <Header/>
             <Main/>
-            {/* <Footer/> */}
+            <Footer/>
             
        </>
     )
