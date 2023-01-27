@@ -10,8 +10,8 @@ function Infos(){
     return(
         <section className={styles.container}>
 
-<nav className={styles.containerNav}>
-                <h4>Contatos</h4>
+            <nav className={styles.containerNav}>
+                <h4>Paginas</h4>
                     <div>
                         <img src={send} /> <a>Inicio</a>
                     </div>
@@ -27,7 +27,7 @@ function Infos(){
                     
             </nav>
             <nav className={styles.containerNav}>
-                <h4>Contatos</h4>
+                <h4>Serviços</h4>
                     <div>
                         <img src={send} /> <a   href='https://colinadosipes.com.br/jazigo/' target="_blank">Jazigo</a>
                     </div>
