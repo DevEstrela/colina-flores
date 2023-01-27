@@ -15,7 +15,7 @@ function Vasos(){
                 <h1>Ofertas 20% OFF</h1>
             </div>
             <div className={styles.containerElements}>
-                <div className={styles.elements}>
+                <div>
                     <img alt="coroa de rosas" src={vaso1}/>
                     <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
@@ -23,7 +23,7 @@ function Vasos(){
 
                 </div>
 
-                <div className={styles.elements}>
+                <div>
                     <img src={vaso2} alt="coroa de rosas"/>
                     <h3>Vaso de lirios</h3>
                     <p> de R$ 120,00</p>
@@ -31,7 +31,7 @@ function Vasos(){
 
                 </div>
                 
-                <div className={styles.elements}>
+                <div>
                     <img src={vaso3} alt="coroa de rosas"/>
                     <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
@@ -39,7 +39,7 @@ function Vasos(){
 
                 </div>
 
-                <div className={styles.elements}>
+                <div>
                     <img src={vaso4} alt="coroa de rosas"/>
                     <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
@@ -49,7 +49,7 @@ function Vasos(){
             </div>
 
             <div className={styles.containerElements}>
-                <div className={styles.elements}>
+                <div >
                     <img alt="coroa de rosas" src={vaso5}/>
                     <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
@@ -57,7 +57,7 @@ function Vasos(){
 
                 </div>
 
-                <div className={styles.elements}>
+                <div>
                     <img src={vaso6} alt="coroa de rosas"/>
                     <h3>Vaso de lirios</h3>
                     <p> de R$ 120,00</p>
@@ -65,7 +65,7 @@ function Vasos(){
 
                 </div>
                 
-                <div className={styles.elements}>
+                <div>
                     <img src={vaso7} alt="coroa de rosas"/>
                     <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
@@ -73,7 +73,7 @@ function Vasos(){
 
                 </div>
 
-                <div className={styles.elements}>
+                <div>
                     <img src={vaso8} alt="coroa de rosas"/>
                     <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
