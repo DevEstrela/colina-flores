@@ -1,4 +1,3 @@
-import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Logo from '../components/Logo';
@@ -9,9 +8,8 @@ function Home(){
        <>
             <Logo/>
             <Header/>
-            <Banner/>
             <Main/>
-            <Footer/>
+            {/* <Footer/> */}
             
        </>
     )
