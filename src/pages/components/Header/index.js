@@ -9,11 +9,9 @@ function Header(){
                     <h1>Seu Carinho com Flores</h1> 
                 
                     <div className={styles.ContainerLinks}>
-                        <Link to="/" className={styles.links} >Localização</Link>
-                        <Link to="/" className={styles.links} >Contatos</Link>
-                        <Link to="/" className={styles.links} >Coroas</Link>
-
-                        <Link to="/" className={styles.button}>Entrar em contato</Link>
+                        <a href='https://goo.gl/maps/GjGp2VN1nbSN3XxZ9' target="_blank" className={styles.links} >Localização</a>
+                        <a href='https://colinadosipes.com.br/'className={styles.links} >Grupo Colina</a>
+                        <a href='https://wa.me/5511951534222' target="_blank" className={styles.button}>Entrar em contato</a>
 
                     </div>
                     
