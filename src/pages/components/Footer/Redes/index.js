@@ -8,7 +8,7 @@ function Redes (){
     return(
         <nav className={styles.container}>
             <img src={logo}/>
-            <div>
+            <div >
                 <a href="" target="_blank"><img src={face}/></a>
                 <a href="" target="_blank"><img src={insta}/></a>
                 <a href="https://www.linkedin.com/company/grupo-colina/mycompany/" target="_blank"><img src={linke}/></a>
