@@ -8,14 +8,15 @@
 }
 .containerNav{
     width:200px;
+    height: 140px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 .containerNav > div{
     display: flex;
     margin-bottom: 15px;
-    color: #FFFFFF;    
-    margin-left: 8px;
+    color: #FFFFFF;
 }
 .imgQualidade{
     width: 10vw;
@@ -33,11 +34,16 @@
 .containerNav > div > p{
     margin-left: 8px;
 }
+.containerNav > div > img{
+    width: 20px;
+    height: 20px;
+}
 
 @media ( min-width: 768px) and (max-width: 1023px){
     .container{
         display: flex;
         width: 50vw;
+        height: 260px;
         padding: 10px;
         display: flex;
         justify-content: space-around;
@@ -66,7 +72,6 @@
         font-size: 10px;
     }
     .container > div > img {
-        width: 20vw;
         display: none;
     }
 
@@ -74,25 +79,23 @@
 @media (max-width: 767px) {
     .container{
         display: flex;
-        width: 80vw;
-        padding: 10px;
+        justify-content: space-around;
+        width: 65vw;
         margin: auto;
+        gap: 0px;
+        margin-right: 100px;
     }
     .containerNav{
-        width: 90vw;
+        width: 20vw;
         display: flex;
         flex-direction: column;
-        margin-left: 2px;
-        justify-content: baseline;
         align-items: flex-start;
     }
     .containerNav > div{
         display: flex;
         margin-bottom: 15px;
         color: #FFFFFF;
-        margin-left: 8px;
         align-items: center;
-        justify-content: flex-start;
     }
     .containerNav > div > img {
         width: 20px;
