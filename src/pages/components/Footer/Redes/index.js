@@ -7,11 +7,11 @@ import linke from '../../../../img/footer/linke.png'
 function Redes (){
     return(
         <nav className={styles.container}>
-            <img src={logo}/>
+            <img src={logo} alt="Logo do Grupo colina"/>
             <div >
-                <a href="https://www.facebook.com/grcolina" target="_blank"><img src={face} alt="logo facebook" /></a>
-                <a href="https://www.instagram.com/grupocolina/" target="_blank"><img src={insta} alt="logo instagram" /></a>
-                <a href="https://www.linkedin.com/company/grupo-colina/mycompany/" target="_blank"><img src={linke} alt="logo linkedin"/></a>
+                <a href="https://www.facebook.com/grcolina" target="_blank" without rel="noreferrer"><img src={face} alt="logo facebook" /></a>
+                <a href="https://www.instagram.com/grupocolina/" target="_blank" without rel="noreferrer" ><img src={insta} alt="logo instagram" /></a>
+                <a href="https://www.linkedin.com/company/grupo-colina/mycompany/" target="_blank" without rel="noreferrer"><img src={linke} alt="logo linkedin"/></a>
             </div>
             
         </nav>

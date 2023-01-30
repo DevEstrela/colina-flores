@@ -11,15 +11,15 @@ function Infos(){
             <nav className={styles.containerNav}>
                 <h4>Paginas</h4>
                     <div>
-                        <img src={send} alt="seta" /> <a>Inicio</a>
+                        <img src={send} alt="seta" /> <a href='https://colinadosipes.com.br/quem-somos/' target="_blank" without rel="noreferrer">Quem somos</a>
                     </div>
                     
                     <div>
-                        <img src={send} alt="seta" /> <a   href='https://colinadosipes.com.br/' target="_blank">Blog</a>
+                        <img src={send} alt="seta" /> <a href='https://colinadosipes.com.br/' target="_blank" without rel="noreferrer">Blog</a>
                     </div>
                     
                     <div>
-                        <img src={send} alt="seta" /> <a   href='https://grupocolina.solides.jobs/' target="_blank">Trabalhe Conosco</a>
+                        <img src={send} alt="seta" /> <a href='https://grupocolina.solides.jobs/' target="_blank" without rel="noreferrer">Trabalhe Conosco</a>
                     </div>
          
                     
@@ -28,15 +28,15 @@ function Infos(){
             <nav className={styles.containerNav}>
                 <h4>Serviços</h4>
                     <div>
-                        <img src={send} alt="seta" /> <a   href='https://colinadosipes.com.br/jazigo/' target="_blank">Jazigo</a>
+                        <img src={send} alt="seta" /> <a href='https://colinadosipes.com.br/jazigo/' target="_blank" without rel="noreferrer">Jazigo</a>
                     </div>
                     
                     <div>
-                        <img src={send} alt="seta" /> <a   href='https://colinadosipes.com.br/cremacao/' target="_blank">Cremação</a>
+                        <img src={send} alt="seta" /> <a href='https://colinadosipes.com.br/cremacao/' target="_blank" without rel="noreferrer">Cremação</a>
                     </div>
                     
                     <div>
-                        <img src={send} alt="seta" /> <a   href='https://colinadosipes.com.br/plano-funerario/' target="_blank">Planos</a>
+                        <img src={send} alt="seta" /> <a href='https://colinadosipes.com.br/plano-funerario/' target="_blank" without rel="noreferrer">Planos</a>
                     </div>
                                     
             </nav>
@@ -44,7 +44,7 @@ function Infos(){
             <nav className={styles.containerNav}>
                 <h4>Contatos</h4>
                     <div>
-                        <img src={send} alt="seta" /> <a href='https://criarmeulink.com.br/u/1674159251' target="_blank">(11) 4746-7777</a>
+                        <img src={send} alt="seta" /> <a href='https://criarmeulink.com.br/u/1674159251' target="_blank" without rel="noreferrer">(11) 4746-7777</a>
                     </div>
                     
                     <div>
