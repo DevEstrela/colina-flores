@@ -4,9 +4,15 @@
     display: flex;
     margin-top: 50px;
 }
+@media ( min-width: 768px) and (max-width: 1023px){
+    .container{
+        height: 260px;
+    }
+}
 @media (max-width: 767px) {
     .container{
         flex-direction: column;
-        height: 320px;
+        height: 310px;
     }
 }
+
