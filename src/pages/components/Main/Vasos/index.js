@@ -17,33 +17,33 @@ function Vasos(){
             <div className={styles.containerElements}>
                 <div>
                     <img alt="coroa de rosas" src={vaso1}/>
-                    <h3>Vaso de lirios</h3>
+                    {/* <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
-                    <h5>por R$ 90,00</h5>
+                    <h5>por R$ 90,00</h5> */}
 
                 </div>
 
                 <div>
                     <img src={vaso2} alt="coroa de rosas"/>
-                    <h3>Vaso de lirios</h3>
+                    {/* <h3>Vaso de lirios</h3>
                     <p> de R$ 120,00</p>
-                    <h5>por R$ 90,00</h5>
+                    <h5>por R$ 90,00</h5> */}
 
                 </div>
                 
                 <div>
                     <img src={vaso3} alt="coroa de rosas"/>
-                    <h3>Vaso de lirios</h3>
+                    {/* <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
-                    <h5>por R$ 90,00</h5>
+                    <h5>por R$ 90,00</h5> */}
 
                 </div>
 
                 <div>
                     <img src={vaso4} alt="coroa de rosas"/>
-                    <h3>Vaso de lirios</h3>
+                    {/* <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
-                    <h5>por R$ 90,00</h5>
+                    <h5>por R$ 90,00</h5> */}
 
                 </div>
             </div>
@@ -51,33 +51,33 @@ function Vasos(){
             <div className={styles.containerElements}>
                 <div >
                     <img alt="coroa de rosas" src={vaso5}/>
-                    <h3>Vaso de lirios</h3>
+                    {/* <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
-                    <h5>por R$ 90,00</h5>
+                    <h5>por R$ 90,00</h5> */}
 
                 </div>
 
                 <div>
                     <img src={vaso6} alt="coroa de rosas"/>
-                    <h3>Vaso de lirios</h3>
+                    {/* <h3>Vaso de lirios</h3>
                     <p> de R$ 120,00</p>
-                    <h5>por R$ 90,00</h5>
+                    <h5>por R$ 90,00</h5> */}
 
                 </div>
                 
                 <div>
                     <img src={vaso7} alt="coroa de rosas"/>
-                    <h3>Vaso de lirios</h3>
+                    {/* <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
-                    <h5>por R$ 90,00</h5>
+                    <h5>por R$ 90,00</h5> */}
 
                 </div>
 
                 <div>
                     <img src={vaso8} alt="coroa de rosas"/>
-                    <h3>Vaso de lirios</h3>
+                    {/* <h3>Vaso de lirios</h3>
                     <p>de R$ 120,00</p>
-                    <h5>por R$ 90,00</h5>
+                    <h5>por R$ 90,00</h5> */}
 
                 </div>
             </div>
