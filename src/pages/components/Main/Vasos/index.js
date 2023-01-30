@@ -12,7 +12,7 @@ function Vasos(){
         
         <section className={styles.container}>
             <div className={styles.oferta}>
-                <h1>Ofertas 20% OFF</h1>
+                <h1>Arranjos</h1>
             </div>
             <div className={styles.containerElements}>
                 <div>
