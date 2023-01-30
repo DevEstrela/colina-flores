@@ -13,7 +13,7 @@ function Coroas(){
         
         <section className={styles.container}>
             <div className={styles.oferta}>
-                <h1>Ofertas 10% OFF</h1>
+                <h1>Coroas</h1>
             </div>
             <div className={styles.containerElements}>
                 <div>
