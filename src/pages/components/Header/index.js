@@ -6,7 +6,7 @@ function Header(){
         <header className={styles.container}>
             
             <nav className={styles.containerNav}>
-                    <h1>Seu Carinho com Flores</h1> 
+                    <h1>Sua Homenagem em Flores </h1> 
                 
                     <div className={styles.ContainerLinks}>
                         <a href='https://goo.gl/maps/GjGp2VN1nbSN3XxZ9' target="_blank" className={styles.links} >Localização</a>
