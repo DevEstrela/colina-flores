@@ -1,7 +1,5 @@
 import styles from '../Infos/Infos.module.css';
 import boton from '../../../../img/footer/boton.png'
-import local from '../../../../img/footer/local.png';
-import wpp from '../../../../img/footer/wpp.png';
 import email from '../../../../img/footer/email.png';
 import send from '../../../../img/footer/send.png'
 
@@ -21,7 +19,7 @@ function Infos(){
                     </div>
                     
                     <div>
-                        <img src={send} /> <a   href='https://grupocolina.solides.jobs/' target="_blank">Trabale Conosco</a>
+                        <img src={send} /> <a   href='https://grupocolina.solides.jobs/' target="_blank">Trabalhe Conosco</a>
                     </div>
          
                     
@@ -49,11 +47,7 @@ function Infos(){
                     </div>
                     
                     <div>
-                        <img src={email} /> <p>colinadosipes@gmail.com</p>
-                    </div>
-                    
-                    <div>
-                        <img src={wpp} /> <a href='https://wa.me/5511951534222' target="_blank">(11) 9 5153-4222</a>
+                        <img src={email} /> <p>flores@gmail.com.br</p>
                     </div>
                                     
             </nav>
