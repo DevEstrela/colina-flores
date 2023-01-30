@@ -4,7 +4,7 @@ import logo from '../../../img/logo.png';
 function Logo(){
     return(
         <section className={styles.containerLogo}>
-            <img alt='logo' src={logo} className={styles.logo}/>
+            <img alt='Logo Flores' src={logo} className={styles.logo}/>
         </section>
     )
 }
