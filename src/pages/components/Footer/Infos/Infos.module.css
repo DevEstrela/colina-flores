@@ -112,11 +112,13 @@
         color: #FFFFFF;
         margin-left: 0px;
         font-size: 10px;
+        
     }
     .containerNav > div > p{
         color: #FFFFFF;
         margin-left: 0px;
         font-size: 10px;
+        white-space: nowrap;
     }
     .container > div > img {
         width: 20vw;
