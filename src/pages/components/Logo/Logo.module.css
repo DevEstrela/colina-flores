@@ -1,4 +1,3 @@
-                                                                 /*DESKTOP*/
 .containerLogo{
     background-color: #0B55C6;
     width: 100%;
@@ -14,7 +13,7 @@
 @media (max-width: 767px){    
     .containerLogo{
         height: 100px;        
-    }                                 /*MOBILE*/
+    }  
     .logo{
         width: 250px;
     }

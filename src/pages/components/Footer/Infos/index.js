@@ -24,6 +24,7 @@ function Infos(){
          
                     
             </nav>
+            
             <nav className={styles.containerNav}>
                 <h4>Serviços</h4>
                     <div>
@@ -48,10 +49,8 @@ function Infos(){
                     
                     <div>
                         <img src={email} /> <p>flores@gmail.com.br</p>
-                    </div>
-                                    
+                    </div>                                    
             </nav>
-
             <div>
                 <img alt='' className={styles.imgQualidade} src={boton} />
             </div>

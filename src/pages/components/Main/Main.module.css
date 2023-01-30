@@ -3,8 +3,6 @@
     margin: auto; 
     margin-top: 80px;
 }
-
-
 @media ( min-width: 560px) and (max-width: 1024px){
     .containerMain{
         width: 80vw;
