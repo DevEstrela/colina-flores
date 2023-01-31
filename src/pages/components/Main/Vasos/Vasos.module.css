@@ -33,6 +33,7 @@
 }
 .oferta > h1{
     color: #0B55C6;
+    font-family: var(--fontMain);
 }
 
 @media ( min-width: 560px) and (max-width: 1024px){
