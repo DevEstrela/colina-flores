@@ -44,7 +44,7 @@ function Infos(){
             <nav className={styles.containerNav}>
                 <h4>Contatos</h4>
                     <div>
-                        <img src={send} alt="seta" /> <a href='https://criarmeulink.com.br/u/1674159251' target="_blank" without rel="noreferrer">(11) 4746-7777</a>
+                        <img src={send} alt="seta" /> <a href='https://criarmeulink.com.br/u/1674159251' target="_blank" without rel="noreferrer">(11) 94158-7650</a>
                     </div>
                     
                     <div>
