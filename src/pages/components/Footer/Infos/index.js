@@ -48,7 +48,7 @@ function Infos(){
                     </div>
                     
                     <div>
-                        <img src={email} alt="seta" /> <p>flores@gmail.com.br</p>
+                        <img src={email} alt="seta" /> <p>flores@colinadosipes.com.br</p>
                     </div>                                    
             </nav>
             <div>
